@@ -28,6 +28,6 @@ class TestMStep():
         but.click()
         result_text = WebDriverWait(browser, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, 'smart-hints__hint'))).text
         assert result_text != "Correct!"
-        print("12Current result is: " + result_text)
+        print("Current result is: " + result_text)
             
 
